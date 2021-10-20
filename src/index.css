@@ -1,0 +1,80 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  display: flex;
+  height: 200px;
+  width: 240px;
+  padding: 20px;
+}
+h1 {
+  display: flex;
+}
+.navbar-nav {
+  padding: 2px;
+}
+.nav-item {
+  padding: 5px;
+}
+a {
+  color: black;
+}
+.text-green {
+  color: rgb(78, 131, 0);
+  font-size: 20px;
+}
+.text-red {
+  color: rgb(144, 0, 0);
+  font-size: 20px;
+}
+.btn-vis {
+  background: rgb(164, 206, 126);
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 8px;
+  font-weight: 200;
+  border: black;
+}
+.btn-hid {
+  cursor: not-allowed;
+  pointer-events: none;
+  background: rgb(189, 180, 180);
+  opacity: 50%;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 8px;
+  font-weight: 200;
+  border: black;
+}
+
+.filter {
+  position: fixed;
+  top: 65px;
+  right: 0;
+}
+.products {
+  display: -webkit-flex;
+  position: relative;
+  padding: 35px;
+  background: rgb(255, 255, 255);
+  box-shadow: 10px;
+  text-shadow: black 10px;
+}
+img {
+  padding: 30px;
+  border-radius: 30px;
+}
+.price {
+  font-weight: 500;
+  position: relative;
+}
+.category {
+  display: -ms-grid;
+  position: relative;
+  padding: 35px;
+  background: rgb(253, 253, 253);
+  box-shadow: 10px;
+  text-shadow: black 10px;
+}
