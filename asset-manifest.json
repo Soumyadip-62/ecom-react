@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ecom-react/static/css/main.1d1c04a9.chunk.css",
-    "main.js": "/ecom-react/static/js/main.ebca4b39.chunk.js",
-    "main.js.map": "/ecom-react/static/js/main.ebca4b39.chunk.js.map",
+    "main.js": "/ecom-react/static/js/main.0e65e1be.chunk.js",
+    "main.js.map": "/ecom-react/static/js/main.0e65e1be.chunk.js.map",
     "runtime-main.js": "/ecom-react/static/js/runtime-main.85c8df3f.js",
     "runtime-main.js.map": "/ecom-react/static/js/runtime-main.85c8df3f.js.map",
-    "static/js/2.b394cc2d.chunk.js": "/ecom-react/static/js/2.b394cc2d.chunk.js",
-    "static/js/2.b394cc2d.chunk.js.map": "/ecom-react/static/js/2.b394cc2d.chunk.js.map",
+    "static/js/2.9d048cf6.chunk.js": "/ecom-react/static/js/2.9d048cf6.chunk.js",
+    "static/js/2.9d048cf6.chunk.js.map": "/ecom-react/static/js/2.9d048cf6.chunk.js.map",
     "index.html": "/ecom-react/index.html",
     "static/css/main.1d1c04a9.chunk.css.map": "/ecom-react/static/css/main.1d1c04a9.chunk.css.map",
-    "static/js/2.b394cc2d.chunk.js.LICENSE.txt": "/ecom-react/static/js/2.b394cc2d.chunk.js.LICENSE.txt",
+    "static/js/2.9d048cf6.chunk.js.LICENSE.txt": "/ecom-react/static/js/2.9d048cf6.chunk.js.LICENSE.txt",
     "static/media/Doge.77e5589b.png": "/ecom-react/static/media/Doge.77e5589b.png",
     "static/media/headphone.9787ebf7.jpg": "/ecom-react/static/media/headphone.9787ebf7.jpg",
     "static/media/keyboard.9d7920dc.jpg": "/ecom-react/static/media/keyboard.9d7920dc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.85c8df3f.js",
-    "static/js/2.b394cc2d.chunk.js",
+    "static/js/2.9d048cf6.chunk.js",
     "static/css/main.1d1c04a9.chunk.css",
-    "static/js/main.ebca4b39.chunk.js"
+    "static/js/main.0e65e1be.chunk.js"
   ]
 }
