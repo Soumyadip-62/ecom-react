@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import keyboard from "../Images/keyboard.png";
-import headphone from "../Images/headphone.png";
+import keyboard from "../Images/keyboard.jpg";
+import headphone from "../Images/headphone.jpg";
 const Home = () => {
   const category = require("../Database/categories.json");
   const [cat, Setcat] = useState(category);

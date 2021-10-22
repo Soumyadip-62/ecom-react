@@ -5,8 +5,6 @@ import Checkout from "./Checkout";
 import CategoryFilter from "../Components/CategoryFilter";
 import Filtering from "../Components/Filtering";
 
-import AddCart from "../Components/AddCart";
-
 function reducer(state, action) {
   if (action.type === "Add") {
     return [...state, action.id];
@@ -26,16 +24,7 @@ const Category = ({ match }) => {
   const [isfilter, setisfilter] = useState(null);
   console.log(item);
   const filtertxt = match.params.id;
-  const [Cart, setCart] = useState([]);
-  const addtoCart = (product) => {
-    const exist = Cart.find((x) => x.id === product.id);
-    if (exist) {
-      return exist;
-    } else {
-      setCart([{ ...Cart }, { ...product }]);
-    }
-  };
-  console.log(Cart);
+
   console.log(match);
   const onRadiochangeAll = (ev) => {
     Setfilter(ev.target.value);
@@ -120,10 +109,11 @@ const Category = ({ match }) => {
 
   return (
     <div>
-      <div>
+      <div className="input-group">
         <label>
           Filter by Stock
           <input
+            className="radio"
             id="filterbyDelivery"
             checked={isfilter}
             type="radio"

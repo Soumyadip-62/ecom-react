@@ -3,7 +3,9 @@ import React from "react";
 const CategoryFilter = ({ products }) => {
   return (
     <div>
-      <img src={products.thumbnail} alt="notfound" />
+      <div className="center-img">
+        <img src={products.thumbnail} alt="notfound" />
+      </div>
       <h3>{products.name}</h3>
       <p className="price">
         Price : {products.price}
